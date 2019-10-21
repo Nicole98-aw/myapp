@@ -1,5 +1,5 @@
 import React from 'react';
-import './Ninjas.css'; 
+import './Ninjas.css';  
 
 const Ninjas = ({ninjas, deleteNinja}) => {
     const ninjaList = ninjas.map(ninja => {
